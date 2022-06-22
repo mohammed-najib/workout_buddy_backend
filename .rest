@@ -1,0 +1,37 @@
+GET http://localhost:4000/api/workouts/
+
+###
+GET http://localhost:4000/api/workouts/62b04efccb2c5e2a6dfdec93
+
+###
+POST http://localhost:4000/api/workouts/
+content-type: application/json
+
+{
+    "title": "Bench Press",
+    "load": 25,
+    "reps": 40
+}
+
+###
+DELETE http://localhost:4000/api/workouts/62b2e24733d829aa1ca893c3
+
+###
+PATCH http://localhost:4000/api/workouts/62b2e24733d829aa1ca893c3
+content-type: application/json
+
+{
+    "reps": 51
+}
+
+
+###
+# GET https://localhost:4000 HTTP/1.1
+# content-type: application/json
+
+# {
+#     "name": "sample",
+#     "time": "Wed, 21 Oct 2015 18:27:50 GMT"
+# }
+
+# 62b2e24733d829aa1ca893c3
