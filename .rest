@@ -24,14 +24,22 @@ content-type: application/json
     "reps": 51
 }
 
+###
+POST http://localhost:4000/api/user/login
+content-type: application/json
+
+{
+    "email": "mohammed@najib.com",
+    "password": "abc123"
+}
 
 ###
-# GET https://localhost:4000 HTTP/1.1
-# content-type: application/json
+POST http://localhost:4000/api/user/signup
+content-type: application/json
 
-# {
-#     "name": "sample",
-#     "time": "Wed, 21 Oct 2015 18:27:50 GMT"
-# }
+{
+    "email": "mohammed@najib.com",
+    "password": "abc123"
+}
 
 # 62b2e24733d829aa1ca893c3
