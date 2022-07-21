@@ -38,8 +38,17 @@ POST http://localhost:4000/api/user/signup
 content-type: application/json
 
 {
-    "email": "mohammed@najib.com",
-    "password": "abc123"
+    "email": "mohammed123@najib.com",
+    "password": "ABCabc123!"
 }
+
+###
+# POST http://localhost:4000/api/user/signup
+# content-type: application/json
+
+# {
+#     "email": "jkjkjj@dfdfd.com",
+#     "password": "kjkjkj"
+# }
 
 # 62b2e24733d829aa1ca893c3
