@@ -38,7 +38,7 @@ POST http://localhost:4000/api/user/signup
 content-type: application/json
 
 {
-    "email": "mohammed123@najib.com",
+    "email": "mohammed1234@najib.com",
     "password": "ABCabc123!"
 }
 
